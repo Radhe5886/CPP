@@ -58,6 +58,14 @@ int main()
     cylinder c;
     c.calculateVolume();
 
+    int x;
+    int y;
+    cout<<"Enter radius and height: "<<endl;
+
+    cin>>x>>y;
+    cylinder c3(x,y);
+    c3.calculateVolume();
+
     cylinder c1;
     c1.setheight(5);
     cout<<c1.getheight()<<endl;
